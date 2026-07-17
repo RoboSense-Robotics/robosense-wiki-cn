@@ -31,12 +31,14 @@ Active Camera 在出厂时已经完成了相机的内参标定，以下提供的
 ## 相机到雷达的标定
 Active Camera 在出厂时已经完成了相机到雷达的标定，以下提供的方法供开发者在有需要时，重新标定使用。
 
+![](../image/camera-lidar-ext-calib.jpg)
+
 本模块提供相机-雷达标定工具，复用相机内参标定靶板，对相机与雷达分别进行靶板位姿估计，以提供其他模块所需要相机-雷达外参。
 
 标定时请确保靶板处于图像与点云的 FOV 之内，并尽量保持 AC1 稳定，避免因为传感器抖动引入标定误差。  
 
 视频数据：[AC1 Camera to Lidar Calibration data](https://cdn.robosense.cn/AC_wiki/camera_lidar_calib.zip)  
-详细代码：[AC1 Camera to Lidar Calibration code](https://github.com/RoboSense-Robotics/robosense_calibration_extrinsic)
+详细代码：[AC1 Camera to Lidar Calibration code](https://github.com/RoboSense-Robotics/robosense_ac_calibration)
 
 ## 相机到IMU的标定
 Active Camera 在出厂时已经完成了相机到IMU的标定，以下提供的方法供开发者在有需要时，重新标定使用。
