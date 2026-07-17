@@ -31,7 +31,7 @@ Active Camera 在出厂时已经完成了相机的内参标定，以下提供的
 ## 相机到雷达的标定
 Active Camera 在出厂时已经完成了相机到雷达的标定，以下提供的方法供开发者在有需要时，重新标定使用。
 
-![](../image/camera-lidar-ext-calib.jpg)
+![](../../image/camera-lidar-ext-calib.jpg)
 
 本模块提供相机-雷达标定工具，复用相机内参标定靶板，对相机与雷达分别进行靶板位姿估计，以提供其他模块所需要相机-雷达外参。
 
